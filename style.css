@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* outline: red dotted 1px; */
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #1a1a1a;
+  width: 970px;
+  height: auto;
+}
+
+.banner {
+  padding: 15px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.phone {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  font-weight: bolder;
+  margin-left: 550px;
+}
+
+.menu {
+  width: 970px;
+  padding: 10px;
+  background: rgb(82, 82, 82);
+  background: linear-gradient(
+    180deg,
+    rgba(82, 82, 82, 1) 25%,
+    rgba(35, 35, 35, 1) 87%
+  );
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.home {
+  margin-left: 15px;
+  color: white;
+  display: inline-block;
+}
+
+.vertical {
+  border-left: 3px solid #494949;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 10px;
+}
+
+.vertical-last {
+  border-left: 3px solid #494949;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-left: 350px;
+}
+
+.sub {
+  color: #9ea09e;
+}
+
+.img-principal {
+  width: 100%;
+}
+
+.enlaces {
+  padding: 20px 0px 20px 65px;
+  border-top: 3px solid #494949;
+}
+
+.contenido {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contenido img {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0px;
+}
+
+.descripcion h2 {
+  font-family: "Roboto Slab", serif;
+  color: #ea7e2c;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+.contenido p {
+  color: white;
+  line-height: 15px;
+}
+
+.descripcion {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.compra {
+  /* background-color: black; */
+  padding: 25px 25px 10px 25px;
+  background-color: #000000;
+  opacity: 0.8;
+  background: repeating-linear-gradient(
+    -45deg,
+    #1a1a1a,
+    #1a1a1a 2px,
+    #000000 2px,
+    #000000 10px
+  );
+}
+
+.explica {
+  color: white;
+  width: 650px;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 150px;
+}
+
+.explica h2 {
+  margin-bottom: 7px;
+}
+
+.compra .button {
+  padding: 10px 25px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  background: rgb(249, 195, 154);
+  background: linear-gradient(
+    180deg,
+    rgba(249, 195, 154, 1) 25%,
+    rgba(255, 123, 27, 1) 75%
+  );
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.links {
+  padding-top: 25px;
+}
+.links h2 {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  margin-left: 25px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.projects {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #ea7e2c;
+  display: inline-block;
+  margin-left: 680px;
+  margin-bottom: 25px;
+}
+
+.portfolio {
+  width: 23.5%;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.portfolio img {
+  margin-left: 25px;
+  border: 5px solid #525252;
+}
+
+.portfolio h3 {
+  font-family: "Roboto Slab", serif;
+  color: #ea7e2c;
+  margin: 10px 0px 10px 25px;
+}
+
+.portfolio p {
+  color: white;
+  margin-left: 25px;
+  text-align: justify;
+}
+
+.back-top {
+  padding-top: 50px;
+  color: #67696a;
+  font-weight: bolder;
+  margin-left: 900px;
+  margin-top: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
